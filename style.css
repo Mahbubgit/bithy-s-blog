@@ -3,13 +3,14 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .orange-color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.family-albumn{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
