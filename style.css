@@ -7,6 +7,7 @@ h1{
 }
 h2{
     font-size: 35px;
+    text-align: center;
 }
 .orange-color{
     color: orange;
@@ -71,3 +72,6 @@ text-align: center;
 .experience-area h1{
     padding-left: 10px;
 }    
+ol li{
+    height: 50px;
+}
