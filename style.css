@@ -25,6 +25,7 @@ h2{
 }
 .half-width p{
     text-align: justify;
+    padding: 10px;
 }
 .link-button{
     text-decoration: none;
@@ -74,4 +75,25 @@ text-align: center;
 }    
 ol li{
     height: 50px;
+}
+
+
+.photo-gallery h2{
+    padding-left: 10px;
+}
+.family-album{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+.family-album img{
+    width: 285px;
+    height: 250px;
+}
+.image-album{
+    width: 92%;
+    margin: 0 auto;
+    border-top: 10px solid;
+    border-image: linear-gradient(green, white);
+    border-image-slice: 2;
 }
