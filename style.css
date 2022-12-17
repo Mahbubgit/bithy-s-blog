@@ -1,33 +1,63 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    /* background: #000; */
 }
-h1{
+
+/*  Carousel */
+.carousel {
+    background: #000;
+    height: 800px;
+    perspective: 250px;
+}
+
+.carousel .carousel-item {
+    width: 450px;
+}
+
+.carousel img {
+    margin-top: -200px;
+    width: 100%;
+    object-fit: cover;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.5));
+}
+
+/*  Carousel End */
+
+h1 {
     font-size: 45px;
 }
-h2{
+
+h2 {
     font-size: 35px;
     text-align: center;
 }
-.orange-color{
+
+
+.orange-color {
     color: orange;
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding-left: 1%;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
 }
-.half-width p{
+
+.half-width p {
     text-align: justify;
     padding: 10px;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
@@ -35,21 +65,25 @@ h2{
     padding: 10px 40px;
     border-radius: 5px;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.family-albumn{
+
+.family-albumn {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.experience-area{
+
+.experience-area {
     background-image: url(images/exp-bg.png);
     background-position: left;
     background-repeat: no-repeat;
 }
-.experience-item{
+
+.experience-item {
     box-shadow: 10px 10px 40px gray;
     width: 42%;
     margin: 0 2%;
@@ -57,40 +91,48 @@ h2{
     border-radius: 5px;
     border-left: 10px solid;
 }
-#web-dev-experience{
+
+#web-dev-experience {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
-#full-stack-experience{
+
+#full-stack-experience {
     border-left: 7px solid;
     border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
 }
-footer p{
-text-align: center;
+
+footer p {
+    text-align: center;
 }
-.experience-area h1{
+
+.experience-area h1 {
     padding-left: 10px;
-}    
-ol li{
+}
+
+ol li {
     height: 50px;
 }
 
 
-.photo-gallery h2{
+.photo-gallery h2 {
     padding-left: 10px;
 }
-.family-album{
+
+.family-album {
     width: auto;
     height: auto;
     padding: 5px;
 }
-.family-album img{
+
+.family-album img {
     width: 285px;
     height: 250px;
 }
-.image-album{
+
+.image-album {
     width: 92%;
     margin: 0 auto;
     border-top: 10px solid;
