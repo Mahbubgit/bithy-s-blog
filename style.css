@@ -286,8 +286,8 @@ ol li {
     }
 
     .carousel img {
-        margin-top: -100px;
-        width: 95%;
+        margin-top: -120px;
+        width: 100%;
         object-fit: cover;
         -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.5));
     }
@@ -336,7 +336,7 @@ ol li {
 
 /* *********** Media Query(For Small Device [Tab]) *************/
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-    
+
     .flexible-container {
         display: grid;
         margin-bottom: 100px;
