@@ -4,6 +4,51 @@ body {
     /* background: #000; */
 }
 
+/**************Return to Top********************/
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top img {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover img {
+    color: #fff;
+    top: 5px;
+}
+
+/***************End Return To Top*******************/
+
 /*  Carousel */
 .carousel {
     background: #000;
@@ -247,7 +292,6 @@ ol li {
     height: 50px;
 }
 
-
 .photo-gallery h2 {
     padding-left: 10px;
 }
@@ -273,6 +317,52 @@ ol li {
 
 /* *********** Media Query(For Small Device [Mobile]) *************/
 @media only screen and (max-width:576px) {
+
+    /***************Return To Top*******************/
+    #return-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        /* background: rgb(244, 242, 242);
+    background: rgba(252, 252, 252, 0.7); */
+        width: 50px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #return-to-top img {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        top: 13px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #return-to-top:hover {
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    #return-to-top:hover img {
+        color: #fff;
+        top: 5px;
+    }
+
+    /***************End Return To Top*******************/
 
     /*  Carousel */
     .carousel {
@@ -337,6 +427,49 @@ ol li {
 /* *********** Media Query(For Small Device [Tab]) *************/
 @media only screen and (min-width: 577px) and (max-width: 992px) {
 
+    /***************Return To Top*******************/
+    #return-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #return-to-top img {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        top: 13px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #return-to-top:hover {
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    #return-to-top:hover img {
+        color: #fff;
+        top: 5px;
+    }
+
+    /***************End Return To Top*******************/
     .flexible-container {
         display: grid;
         margin-bottom: 100px;
