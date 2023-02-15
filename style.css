@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    /* background: #000; */
 }
 
 /**************Return to Top********************/
@@ -75,7 +74,7 @@ body {
     text-align: center;
 }
 
-.section-title h1 {
+.section-title h2 {
     color: #22bedd;
     font-size: 30px;
     margin: 50px 0;
@@ -204,6 +203,8 @@ body {
 /********************************/
 h1 {
     font-size: 45px;
+    text-align: center;
+    margin-top: -.2px;
 }
 
 h2 {
@@ -217,16 +218,31 @@ h2 {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 1%;
+    text-align: center;
+}
+
+.cake-top{
+    width: 0;
+}
+
+.half-width .cake-right{
+    width: 80%;
+    justify-items: center;
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid gray 2px;
+    align-items: center;
 }
 
 .half-width p {
@@ -258,6 +274,7 @@ h2 {
     background-image: url(images/exp-bg.png);
     background-position: left;
     background-repeat: no-repeat;
+    margin-top: 40px;
 }
 
 .experience-item {
@@ -269,13 +286,13 @@ h2 {
     border-left: 10px solid;
 }
 
-#web-dev-experience {
+#block-experience {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 
-#full-stack-experience {
+#cake-experience {
     border-left: 7px solid;
     border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
@@ -285,16 +302,8 @@ footer p {
     text-align: center;
 }
 
-.experience-area h1 {
-    padding-left: 10px;
-}
-
 ol li {
     height: 50px;
-}
-
-.photo-gallery h2 {
-    padding-left: 10px;
 }
 
 .family-album {
@@ -324,8 +333,6 @@ ol li {
         position: fixed;
         bottom: 20px;
         right: 50px;
-        /* background: rgb(244, 242, 242);
-    background: rgba(252, 252, 252, 0.7); */
         width: 50px;
         height: 50px;
         display: block;
@@ -386,7 +393,7 @@ ol li {
 
     .flexible-container {
         display: grid;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
     }
 
     .half-width {
@@ -398,8 +405,12 @@ ol li {
         text-align: center;
     }
 
-    .half-width h3 {
-        text-align: center;
+    .half-width .cake-top{
+        width: 80%;
+    }
+    
+    .cake-right{
+        width: 0;
     }
 
     .link-button {
@@ -409,10 +420,12 @@ ol li {
         font-weight: 700;
         padding: 10px;
         border-radius: 5px;
+        margin: 100px;
     }
 
     .half-width img {
-        width: 0;
+        width: 90%;
+        margin: 5%;
     }
 
     .experience-item {
@@ -474,7 +487,7 @@ ol li {
     /***************End Return To Top*******************/
     .flexible-container {
         display: grid;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
     }
 
     .half-width {
@@ -486,8 +499,12 @@ ol li {
         text-align: center;
     }
 
-    .half-width h3 {
-        text-align: center;
+    .half-width .cake-top{
+        width: 80%;
+    }
+    
+    .cake-right{
+        width: 0;
     }
 
     .link-button {
@@ -497,10 +514,12 @@ ol li {
         font-weight: 700;
         padding: 10px;
         border-radius: 5px;
+        margin: 100px;
     }
 
     .half-width img {
-        width: 0;
+        width: 90%;
+        margin: 5%;
     }
 
     .experience-item {
