@@ -110,7 +110,6 @@ body {
 }
 
 .border {
-    /* border: 1px solid white; */
     background-color: #22bedd;
     position: absolute;
     transition: .7s ease-in-out;
@@ -166,7 +165,6 @@ body {
 
 .photo-content {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
     font-weight: 700;
     position: absolute;
     width: 100%;
@@ -174,7 +172,7 @@ body {
     bottom: 0;
     top: 0;
     color: whitesmoke;
-    padding-left: 30px;
+    text-align: center;
     transform: translateX(400px);
     transition: .7s ease-out;
     transform: translateY(300px);
@@ -182,6 +180,7 @@ body {
 
 .photo:hover .photo-content {
     transform: translateY(180px);
+    text-align: center;
 }
 
 .photo::before {
