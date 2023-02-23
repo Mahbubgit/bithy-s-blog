@@ -76,6 +76,7 @@
         <div class="flexible-container">
             <div class="half-width cake-top">
                 <img src="images/profile-cake.jpg" alt="Cake">
+
             </div>
             <div class="half-width">
                 <p>
@@ -400,7 +401,7 @@
             <h2> ফটো গ্যালারি </h2>
         </div>
         <div id="myBtnContainer" style="text-align: center;">
-            <button class="btn active" onclick="filterSelection('all')"> All</button>
+            <button class="btn" onclick="filterSelection('all')"> All</button>
             <button class="btn" onclick="filterSelection('cake')"> Cake</button>
             <button class="btn" onclick="filterSelection('block')"> Block</button>
         </div>
@@ -414,6 +415,7 @@
                     <div class="border bottom"></div>
 
                     <img src="https://i.ibb.co/ckdX6xq/1.jpg" alt="Cake" style="width:100%">
+
                     <div class="photo-content">
                         <h6>VANILLA SPONGE CAKE</h6>
                         <h6>Code - 1</h6>
@@ -903,19 +905,8 @@
             }
             element.className = arr1.join(" ");
         }
-
-
-        // Add active class to the current button (highlight it)
-        let btnContainer = document.getElementById("myBtnContainer");
-        let btns = btnContainer.getElementsByClassName("btn");
-        for (let i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-                let current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
     </script>
+
 </body>
 
 </html>
